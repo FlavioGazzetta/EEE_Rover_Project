@@ -11,11 +11,11 @@ This module processes analog signals to determine their frequency. The system co
 
 ### **Algorithm Design**
 The following flowchart illustrates the logic used for frequency calculation:
-<img src="../Images/Radio_flow_chart.png" alt="Radio Signal Flowchart" width="400"/>
+<img src="../../Images/Radio_flow_chart.png" alt="Radio Signal Flowchart" width="400"/>
 
 ### **Test Results**
 Below is the serial monitor output showing successful detection of signal frequencies:
-<img src="../Images/Radio_code_Output.png" alt="Radio Signal Test Output" width="400"/>
+<img src="../../Images/Radio_code_Output.png" alt="Radio Signal Test Output" width="400"/>
 
 ---
 
@@ -26,11 +26,11 @@ This module decodes lizard names from digital signals received in UART format. T
 
 ### **Algorithm Design**
 The flowchart below describes the logic used for decoding lizard names:
-<img src="../Images/Ultrasound_code_output.png" alt="Ultrasound Signal Flowchart" width="400"/>
+<img src="../../Images/Ultrasound_code_output.png" alt="Ultrasound Signal Flowchart" width="400"/>
 
 ### **Test Results**
 During testing, stable results were observed for various lizard names, as shown below:
-<img src="../Images/Ultrasound_code_output.png" alt="Ultrasound Signal Test Output" width="400"/>
+<img src="../../Images/Ultrasound_code_output.png" alt="Ultrasound Signal Test Output" width="400"/>
 
 ---
 
@@ -41,11 +41,11 @@ This module calculates the frequency of infrared signals by counting peaks and d
 
 ### **Algorithm Design**
 The flowchart below describes the peak-counting algorithm for infrared signal processing:
-<img src="../Images/Infrared_flow_chart.png" alt="Infrared Signal Flowchart" width="400"/>
+<img src="../../Images/Infrared_flow_chart.png" alt="Infrared Signal Flowchart" width="400"/>
 
 ### **Test Results**
 The system successfully detected the frequencies of two lizard species during testing:
-<img src="../Images/Infrared_code_Output.png" alt="Infrared Signal Test Output" width="400"/>
+<img src="../../Images/Infrared_code_Output.png" alt="Infrared Signal Test Output" width="400"/>
 
 ---
 
@@ -56,7 +56,7 @@ The magnetic module detects magnetic polarity to identify the lizard's orientati
 
 ### **Test Results**
 Below is the output showing the accurate detection of magnetic polarities:
-<img src="../Images/Magnet_code_output.png" alt="Magnetic Signal Test Output" width="400"/>
+<img src="../../Images/Magnet_code_output.png" alt="Magnetic Signal Test Output" width="400"/>
 
 ---
 
