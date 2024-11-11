@@ -53,16 +53,6 @@ The **EEE Rover Project** is a collaborative engineering initiative designed to 
 
 ---
 
-### 📊 **Test Results**
-| IR Frequency | Radio Frequency | Magnetic Polarity | Species   |
-|--------------|-----------------|-------------------|-----------|
-| 349.76 Hz    | None            | South            | Dixonius  |
-| 577.00 Hz    | None            | North            | Abronia   |
-| None         | 197.50 Hz       | South            | Cophotis  |
-| None         | 119.03 Hz       | North            | Elgaria   |
-
----
-
 ### 🔮 **Future Improvements**
 - **Chassis Redesign**: Optimize for better weight distribution and stability.
 - **Enhanced Signal Processing**: Improve stability and expand detection range.
@@ -74,8 +64,8 @@ The **EEE Rover Project** is a collaborative engineering initiative designed to 
 ### 🧑‍🤝‍🧑 **Team Members**
 | Name             | Contribution                          |
 |------------------|--------------------------------------|
+| Flavio Gazzetta  | Integration & Infrared Signal Hardware Design|
 | Michael Li       | Integration & Infrared Signal Analysis |
-| Flavio Gazzetta  | Infrared Signal Hardware Design       |
 | Zecheng Zhu      | Ultrasound Signal Software & Reporting |
 | Yufeng Wu        | Radio Signal & Magnetic Polarity     |
 | Shenghong Liu    | Integration & Hardware Design        |
