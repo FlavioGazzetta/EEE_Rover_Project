@@ -11,7 +11,12 @@ The software processes analog signals to determine their frequency. Using an Ard
 
 ### **Algorithm Design**
 The logic used for the radio signal frequency detection is illustrated in the following flowchart:
+
+---
+
 <img src="../../Images/Radio_flow_chart.png" alt="Radio Signal Flowchart" width="200"/>
+
+---
 
 ### **Explanation**
 1. **Frequency Calculation**:
@@ -24,6 +29,9 @@ The logic used for the radio signal frequency detection is illustrated in the fo
 
 ### **Test Results**
 The system successfully detected the frequencies of the radio signal during tests, as shown in the serial monitor output:
+
+---
+
 <img src="../../Images/Radio_code_Output.png" alt="Radio Signal Test Output" width="200"/>
 
 ---
@@ -35,6 +43,9 @@ This module decodes lizard names from digital signals received in UART format. T
 
 ### **Test Results**
 During testing, the module successfully decoded various lizard names from ultrasound signals. An example output is shown below:
+
+---
+
 <img src="../../Images/Ultrasound_code_output.png" alt="Ultrasound Signal Test Output" width="200"/>
 
 ---
@@ -46,7 +57,12 @@ This module processes infrared signals to calculate frequency and determine the 
 
 ### **Algorithm Design**
 The logic for infrared signal frequency detection is illustrated below:
+
+---
+
 <img src="../../Images/Infrared_flow_chart.png" alt="Infrared Signal Flowchart" width="200"/>
+
+---
 
 ### **Explanation**
 1. **Peak Detection**:
@@ -63,6 +79,9 @@ The system correctly detected the frequencies for two predefined lizard species 
 - Dixonius: **353 Hz**
 
 The test output is shown below:
+
+---
+
 <img src="../../Images/Infrared_code_Output.png" alt="Infrared Signal Test Output" width="200"/>
 
 ---
@@ -74,6 +93,9 @@ The magnetic signal module detects the magnetic polarity (North Pole, South Pole
 
 ### **Test Results**
 The system accurately detected magnetic polarities during testing:
+
+---
+
 <img src="../../Images/Magnet_code_output.png" alt="Magnetic Signal Test Output" width="200"/>
 
 ---
