@@ -5,7 +5,8 @@ The team aimed to build a compact and lightweight rover with dimensions of **25c
 ---
 
 ## 🖼️ Final Design
-<img src="../../Images/rover_front.png" alt="Final Design of the Rover" width="400"/>
+<img src="C:\Users\User\Documents\EEE_Rover_Project\Images\rover_front.png
+" alt="Final Design of the Rover" width="400"/>
 
 *Figure 2: Final design of the rover.*
 
