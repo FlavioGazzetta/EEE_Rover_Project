@@ -41,6 +41,7 @@ This module processes radio signals emitted by lizards to identify their species
 
 ---
 
-## 📂 **Files**
-- **Circuit Simulation**: `radio_signal.asc` (LTSpice).
-- **PCB Layout**: `radio_signal_pcb.pdf`.
+## 🖼️ **LTSpice Circuit**
+Below is the LTSpice circuit for the Radio Signal Processing module:
+
+![Radio Signal LTSpice Circuit](../../Images/radio_signal_circuit.png)

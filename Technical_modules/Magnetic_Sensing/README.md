@@ -17,3 +17,9 @@ This module detects magnetic polarity to identify lizard species.
   - **"South Pole"** if the difference < -10.
   - **"Neutral"** if the difference is between -10 and 10.
 
+---
+
+## 🖼️ **LTSpice Circuit**
+Below is the LTSpice circuit for the Magnetic Sensing module:
+
+![Magnetic Sensing LTSpice Circuit](../../Images/magnetic_sensing_circuit.png)

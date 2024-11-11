@@ -41,3 +41,10 @@ This module processes modulated ultrasonic signals (40kHz) to extract digital da
 ## 📂 **Files**
 - **Circuit Simulation**: `ultrasound_signal.asc` (LTSpice).
 - **PCB Layout**: `ultrasound_signal_pcb.pdf`.
+
+---
+
+## 🖼️ **LTSpice Circuit**
+Below is the LTSpice circuit for the Ultrasound Signal Processing module:
+
+![Ultrasound Signal LTSpice Circuit](../../Images/ultrasound_signal_circuit.png)

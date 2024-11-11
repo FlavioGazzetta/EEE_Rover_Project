@@ -34,3 +34,10 @@ This module detects and processes infrared signals emitted by lizards to identif
 ## 📂 **Files**
 - **Circuit Simulation**: `infrared_signal.asc` (LTSpice).
 - **PCB Layout**: `infrared_signal_pcb.pdf`.
+
+---
+
+## 🖼️ **LTSpice Circuit**
+Below is the LTSpice circuit for the Infrared Signal Processing module:
+
+![Infrared Signal LTSpice Circuit](../../Images/infrared_signal_circuit.png)
