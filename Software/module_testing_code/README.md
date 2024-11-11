@@ -11,7 +11,7 @@ The software processes analog signals to determine their frequency. Using an Ard
 
 ### **Algorithm Design**
 The logic used for the radio signal frequency detection is illustrated in the following flowchart:
-<img src="../../Images/Radio_flow_chart.png" alt="Radio Signal Flowchart" width="400" height="300"/>
+<img src="../../Images/Radio_flow_chart.png" alt="Radio Signal Flowchart" width="400"/>
 
 ### **Explanation**
 1. **Frequency Calculation**:
@@ -24,30 +24,18 @@ The logic used for the radio signal frequency detection is illustrated in the fo
 
 ### **Test Results**
 The system successfully detected the frequencies of the radio signal during tests, as shown in the serial monitor output:
-<img src="../../Images/Radio_code_Output.png" alt="Radio Signal Test Output" width="400" height="300"/>
+<img src="../../Images/Radio_code_Output.png" alt="Radio Signal Test Output" width="400"/>
 
 ---
 
 ## 🛰️ **Ultrasound Signal Software**
 
 ### **Overview**
-The ultrasound module software decodes 4-character lizard names from digital signals received in UART format. The software handles bit-reversal, start/stop bits, and ensures stable output.
-
-### **Explanation**
-1. **Signal Decoding**:
-   - Each character is received in reverse order (LSB first and MSB last).
-   - Additional start (0) and stop (1) bits are handled by the program.
-
-2. **Software Logic**:
-   - The program detects the start bit (`0`) to begin reading the signal and uses the stop bit (`1`) to reset for the next character.
-   - The decoding process ensures timing accuracy using `bitDuration` and properly saves characters in reverse order.
-
-3. **Error Handling**:
-   - The software checks the first character to ensure it begins with `#`, avoiding errors caused by looped signals.
+This module decodes lizard names from digital signals received in UART format. The program efficiently handles bit-reversal, start/stop bits, and ensures stable output.
 
 ### **Test Results**
 During testing, the module successfully decoded various lizard names from ultrasound signals. An example output is shown below:
-<img src="../../Images/Ultrasound_code_output.png" alt="Ultrasound Signal Test Output" width="400" height="300"/>
+<img src="../../Images/Ultrasound_code_output.png" alt="Ultrasound Signal Test Output" width="400"/>
 
 ---
 
@@ -58,7 +46,7 @@ This module processes infrared signals to calculate frequency and determine the 
 
 ### **Algorithm Design**
 The logic for infrared signal frequency detection is illustrated below:
-<img src="../../Images/Infrared_flow_chart.png" alt="Infrared Signal Flowchart" width="400" height="300"/>
+<img src="../../Images/Infrared_flow_chart.png" alt="Infrared Signal Flowchart" width="400"/>
 
 ### **Explanation**
 1. **Peak Detection**:
@@ -75,7 +63,7 @@ The system correctly detected the frequencies for two predefined lizard species 
 - Dixonius: **353 Hz**
 
 The test output is shown below:
-<img src="../../Images/Infrared_code_Output.png" alt="Infrared Signal Test Output" width="400" height="300"/>
+<img src="../../Images/Infrared_code_Output.png" alt="Infrared Signal Test Output" width="400"/>
 
 ---
 
@@ -84,20 +72,9 @@ The test output is shown below:
 ### **Overview**
 The magnetic signal module detects the magnetic polarity (North Pole, South Pole, or Neutral) to identify the lizard's orientation.
 
-### **Explanation**
-1. **Polarity Detection**:
-   - The module compares the magnetic field readings from two sensors.
-   - Differences in readings determine the polarity:
-     - If the difference > 10: **North Pole**
-     - If the difference < -10: **South Pole**
-     - Otherwise: **Neutral**
-
-2. **Integration**:
-   - The software integrates seamlessly with the hardware to process magnetic signals in real-time.
-
 ### **Test Results**
-Below is the serial monitor output showing accurate detection of magnetic polarities during testing:
-<img src="../../Images/Magnet_code_output.png" alt="Magnetic Signal Test Output" width="400" height="300"/>
+The system accurately detected magnetic polarities during testing:
+<img src="../../Images/Magnet_code_output.png" alt="Magnetic Signal Test Output" width="400"/>
 
 ---
 
