@@ -5,46 +5,33 @@ This module processes modulated ultrasonic signals (40kHz) to extract digital da
 ---
 
 ## 🛠️ **Hardware Design**
-### **Amplification**
-- **Operational Amplifier:** NE5532 with an inverting amplifier configuration (Gain: -3).
-- Bias Voltage: 2.5V using a potential divider.
-
-### **Envelope Detection**
-- Removes the negative component of the modulated signal using a diode.
-- Ripple voltage reduced with a 10nF capacitor to maintain clear high and low bits.
-
-### **Low-pass Filtering**
-- Filters the envelope signal for smoother waveform transitions.
-- Produces digital signal (S1 and S2) suitable for microcontroller processing.
-
-### **Comparator**
-- Converts analog signals into binary outputs (5V for bit 1, 0V for bit 0).
-
-### **Final Design**
-- Integrated onto a lightweight PCB.
-- Ultrasonic receiver connected via terminals J1 and J2.
+1. **Amplification**:
+   - An inverting amplifier (gain: -3) is used to amplify the received signal.
+2. **Envelope Detection**:
+   - A diode removes the negative component of the signal.
+   - A capacitor (10nF) reduces ripple voltage.
+3. **Low-pass Filtering**:
+   - Smoothens the signal for further processing.
+4. **Comparator**:
+   - Converts the processed signal into a clean binary output.
 
 ---
 
-## 🖥️ **Software Integration**
-### **UART Decoding**
-- Processes digital signals into lizard names using the following logic:
-  - Recognizes each character as a 2-bit hexadecimal number (reversed bit order).
-  - Detects start (0) and stop (1) bits for each character.
-  - Ensures stable data transmission at 600 bits per second with a `bitDuration` of 1667 µs.
-
-### **Flowchart**
-- Logical flow ensures error-free and stable decoding of lizard names.
+### **Signal Processing Summary**
+- The ultrasound signal is received by a 40kHz transceiver and passed through an **inverting amplifier** with a gain of -3. 
+- A **diode** and capacitor remove ripples and isolate the useful signal. 
+- A **low-pass filter** smoothens the waveform before a **comparator** converts it into a binary digital output, which can be processed by UART.
 
 ---
 
-## 📂 **Files**
-- **Circuit Simulation**: `ultrasound_signal.asc` (LTSpice).
-- **PCB Layout**: `ultrasound_signal_pcb.pdf`.
+## 📊 **Test Results**
+- Successfully detected lizard names encoded in ultrasonic signals.
 
 ---
 
-## 🖼️ **LTSpice Circuit**
-Below is the LTSpice circuit for the Ultrasound Signal Processing module:
+## 🖼️ **Circuits**
+1. **Ultrasound Circuit**  
+   <img src="../../Images/Ultrasound_Circuit.png" alt="Ultrasound Circuit" width="400"/>
 
-![Ultrasound Signal LTSpice Circuit](../../Images/ultrasound_signal_circuit.png)
+2. **PCB Circuit**  
+   <img src="../../Images/Ultrasound_PCB.png" alt="Ultrasound PCB Circuit" width="400"/>

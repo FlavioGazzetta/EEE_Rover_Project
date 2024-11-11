@@ -6,35 +6,38 @@ This module processes radio signals emitted by lizards to identify their species
 
 ## 🛠️ **Hardware Design**
 ### **Reception**
-- **Inductor (100mH):** Chosen as the receiver for its reliability at reasonable distances from the lizard.
-- Detected pronounced voltage fluctuations that varied with distance, indicating signal reliability.
+- **Inductor (100mH):** Chosen for its reliability at reasonable distances from the lizard.
 
 ### **Signal Processing Stages**
 1. **Band-pass Filter**:
-   - Filters out signals around 89 kHz, which are amplitude modulated with 120 Hz and 200 Hz.
-   - Inductance: 2.2mH, Capacitance: 1.5nF.
+   - Filters out the carrier frequency of 89 kHz.
+   - Uses an inductor (2.2mH) and capacitor (1.5nF) in parallel.
 2. **Non-inverting Amplifier**:
-   - Amplifies the signal while maintaining its integrity.
-   - Operational Amplifier: LM4562 (Gain-bandwidth product: 55MHz).
-   - DC Bias Voltage: 1.65V, AC Gain: ~200x.
+   - Amplifies the signal by ~200x.
+   - Adds a DC bias of 1.65V.
 3. **Envelope Detector**:
-   - Demodulates the signal to retrieve the original frequency before modulation.
-   - Resistor: 5 kΩ, Capacitance: 500nF.
+   - Demodulates the AM signal to retrieve the original information signal.
+   - Uses a resistor (5kΩ) and capacitor (500nF).
 4. **Comparator**:
-   - Enhances detection range and accuracy while reducing noise.
-   - Operates in open-loop mode with a low-pass filter for DC component stabilization.
+   - Converts the processed signal into a stable digital output.
 
-### **Final Circuit**
-- Components are integrated onto a Printed Circuit Board (PCB) for a lightweight design.
-- Successfully tested and validated to read radio signals emitted by the lizard.
+---
 
 **Oscilloscope Output Waveform**  
-   <img src="../../Images/Radio_Output_waveform_from_Oscilloscope.png" alt="Radio Oscilloscope Output Waveform" width="400"/>
+   <img src="../../Images/Radio_Output_waveform_from_Oscilloscope.png" alt="Radio Output Waveform" width="400"/>
+
+---
+
+### **Signal Processing Summary**
+- The radio signal is received by a 100mH inductor and passed through a **band-pass filter** to isolate the carrier frequency (89 kHz). 
+- The filtered signal is amplified by a **non-inverting amplifier**, increasing its amplitude by 200x and adding a DC bias. 
+- The amplified signal is demodulated by an **envelope detector**, retrieving the original signal. 
+- A **comparator** converts the analog signal into a clean digital waveform for further processing.
 
 ---
 
 ## 📊 **Test Results**
-- Successfully identified species-specific signals and achieved accurate detection in controlled tests.
+- Successfully detected lizard species based on their radio signal frequencies.
 
 ---
 
@@ -42,19 +45,19 @@ This module processes radio signals emitted by lizards to identify their species
 Below are the images of the circuits for the Radio Signal Processing module:
 
 1. **Band-pass Filter Circuit**  
-   <img src="../../Images/Radio_Band_pass_Filter_Circuit.png" alt="Radio Band-pass Filter Circuit" width="400"/>
+   <img src="../../Images/Radio_Band_pass_Filter_Circuit.png" alt="Band-pass Filter Circuit" width="400"/>
 
-2. **Non-Inverting Amplifier Circuit**  
-   <img src="../../Images/Radio_non_inverting_amplifier_Circuit.png" alt="Radio Non-Inverting Amplifier Circuit" width="400"/>
+2. **Non-inverting Amplifier Circuit**  
+   <img src="../../Images/Radio_non_inverting_amplifier_Circuit.png" alt="Non-inverting Amplifier Circuit" width="400"/>
 
 3. **Envelope Detector Circuit**  
-   <img src="../../Images/Radio_envelope_detector_circuit.png" alt="Radio Envelope Detector Circuit" width="400"/>
+   <img src="../../Images/Radio_envelope_detector_circuit.png" alt="Envelope Detector Circuit" width="400"/>
 
 4. **Comparator Circuit**  
-   <img src="../../Images/Radio_Comparator_circuit.png" alt="Radio Comparator Circuit" width="400"/>
+   <img src="../../Images/Radio_Comparator_circuit.png" alt="Comparator Circuit" width="400"/>
 
 5. **Full Circuit**  
-   <img src="../../Images/Radio_Full_circuit.png" alt="Radio Full Circuit" width="400"/>
+   <img src="../../Images/Radio_Full_circuit.png" alt="Full Circuit" width="400"/>
 
-6. **PCB Full Circuit**  
-   <img src="../../Images/Radio_PCB_Circuit.png" alt="Radio PCB Circuit" width="400"/>
+6. **PCB Circuit**  
+   <img src="../../Images/Radio_PCB_Circuit.png" alt="PCB Circuit" width="400"/>

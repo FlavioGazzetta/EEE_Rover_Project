@@ -5,21 +5,21 @@ This module detects magnetic polarity to identify lizard species.
 ---
 
 ## 🛠️ **Hardware Design**
-- Measures magnetic field differences between the magnet and Earth.
-- Simple comparator circuit implemented for polarity detection.
+- The circuit compares the magnetic field from the magnet and Earth to detect polarity.
 
 ---
 
-## 🖥️ **Software Integration**
-### **Polarity Detection Logic**
-- Outputs:
-  - **"North Pole"** if the difference > 10.
-  - **"South Pole"** if the difference < -10.
-  - **"Neutral"** if the difference is between -10 and 10.
+### **Signal Processing Summary**
+- The magnetic sensing circuit measures the difference between the magnetic field of the magnet and Earth's magnetic field. 
+- If the difference exceeds a threshold, the system outputs **North Pole** or **South Pole** based on the direction of the magnetic field.
 
 ---
 
-## 🖼️ **LTSpice Circuit**
-Below is the LTSpice circuit for the Magnetic Sensing module:
+## 📊 **Test Results**
+- Successfully distinguished magnetic polarity into North, South, or Neutral zones.
 
-![Magnetic Sensing LTSpice Circuit](../../Images/magnetic_sensing_circuit.png)
+---
+
+## 🖼️ **Images**
+1. **Magnetic Sensor Circuit**  
+   <img src="../../Images/Magnet_circuit.png" alt="Magnetic Sensor Circuit" width="400"/>
