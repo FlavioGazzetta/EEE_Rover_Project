@@ -7,7 +7,7 @@ This document outlines the project's planning and budget details, including the 
 ## 📅 **Project Planning**
 The Gantt chart (Figure 1) below was used to represent the team's project planning. It outlines the timeline for each task, ensuring the team adhered to deadlines and maintained progress throughout the development phases.
 
-<img src="../../Images/Project_Gantt_chart.png" alt="Gantt Chart for Planning" width="400"/>
+<img src="../../Images/Project_Gantt_chart.png" alt="Gantt Chart for Planning" width="600"/>
 
 ---
 
@@ -28,8 +28,6 @@ The team's rover design achieved all predefined goals with a relatively low cost
 | 300RPM Gear Motor             | 2            | £1.98                |
 | DURACELL 9V Battery           | 3            | £1.47                |
 | Dual H Bridge L298N           | 1            | £1.40                |
-
-<img src="../../Images/Project_Budget.png" alt="Project Budget Table" width="300"/>
 
 ---
 
