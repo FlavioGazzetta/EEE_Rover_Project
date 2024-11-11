@@ -24,20 +24,19 @@ This module detects and processes infrared signals emitted by lizards to identif
 
 ---
 
-## 🖥️ **Software Integration**
-- Analyzes signal peaks and calculates frequency to distinguish species:
-  - Abronia (571 Hz)
-  - Dixonius (353 Hz).
+## 📊 **Test Results**
+- Successfully identified frequencies of 571Hz (Abronia) and 353Hz (Dixonius).
 
 ---
 
-## 📂 **Files**
-- **Circuit Simulation**: `infrared_signal.asc` (LTSpice).
-- **PCB Layout**: `infrared_signal_pcb.pdf`.
+## 🖼️ **Circuits**
+Below are the images of the circuits for the Infrared Signal Processing module:
 
----
+1. **Infrared Circuit**  
+   <img src="../../Images/Infrared_circuit.png" alt="Infrared Circuit" width="400"/>
 
-## 🖼️ **LTSpice Circuit**
-Below is the LTSpice circuit for the Infrared Signal Processing module:
+2. **Oscilloscope Output Waveform**  
+   <img src="../../Images/Infrared_ouput_waveforms_from_Oscilloscope.png" alt="Infrared Output Waveform" width="400"/>
 
-![Infrared Signal LTSpice Circuit](../../Images/infrared_signal_circuit.png)
+3. **Infrared Processing Pipeline**  
+   <img src="../../Images/Infrared_pipeline.png" alt="Infrared Pipeline Diagram" width="400"/>

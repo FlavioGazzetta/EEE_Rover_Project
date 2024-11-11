@@ -28,10 +28,8 @@ This module processes radio signals emitted by lizards to identify their species
 - Components are integrated onto a Printed Circuit Board (PCB) for a lightweight design.
 - Successfully tested and validated to read radio signals emitted by the lizard.
 
----
-
-### **Oscilloscope Output**
-<img src="../../Images/Radio_Output_waveform_from_Oscilloscope.png" alt="Oscilloscope Output Waveform" width="400"/>
+**Oscilloscope Output Waveform**  
+   <img src="../../Images/Radio_Output_waveform_from_Oscilloscope.png" alt="Radio Oscilloscope Output Waveform" width="400"/>
 
 ---
 
@@ -43,17 +41,20 @@ This module processes radio signals emitted by lizards to identify their species
 ## 🖼️ **Circuits**
 Below are the images of the circuits for the Radio Signal Processing module:
 
-1. **Band-Pass Filter Circuit**  
-   <img src="../../Images/radio_signal_circuit.png" alt="Radio Signal LTSpice Circuit" width="400"/>
+1. **Band-pass Filter Circuit**  
+   <img src="../../Images/Radio_Band_pass_Filter_Circuit.png" alt="Radio Band-pass Filter Circuit" width="400"/>
 
-2. **Comparator Circuit**  
-   <img src="../../Images/Radio_Comparator_circuit.png" alt="Radio Signal Comparator Circuit" width="400"/>
+2. **Non-Inverting Amplifier Circuit**  
+   <img src="../../Images/Radio_non_inverting_amplifier_Circuit.png" alt="Radio Non-Inverting Amplifier Circuit" width="400"/>
 
 3. **Envelope Detector Circuit**  
-   <img src="../../Images/Radio_envelope_detector_circuit.png" alt="Radio Signal Envelope Detector Circuit" width="400"/>
+   <img src="../../Images/Radio_envelope_detector_circuit.png" alt="Radio Envelope Detector Circuit" width="400"/>
 
-4. **Full Circuit**  
-   <img src="../../Images/Radio_Full_circuit.png" alt="Radio Signal Full Circuit" width="400"/>
+4. **Comparator Circuit**  
+   <img src="../../Images/Radio_Comparator_circuit.png" alt="Radio Comparator Circuit" width="400"/>
 
-5. **PCB Full Circuit**  
-   <img src="../../Images/Radio_PCB_Circuit.png" alt="Radio Signal PCB Circuit" width="400"/>
+5. **Full Circuit**  
+   <img src="../../Images/Radio_Full_circuit.png" alt="Radio Full Circuit" width="400"/>
+
+6. **PCB Full Circuit**  
+   <img src="../../Images/Radio_PCB_Circuit.png" alt="Radio PCB Circuit" width="400"/>
