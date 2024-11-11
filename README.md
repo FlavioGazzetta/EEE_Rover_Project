@@ -2,7 +2,7 @@
 
 **Group 29 - Electronics Design Project**
 
-![Rover Image](C:\Users\User\Downloads\WhatsApp Image 2024-11-11 at 02.05.34.jpeg)
+(C:\Users\User\Downloads\WhatsApp Image 2024-11-11 at 02.05.34.jpeg)
 
 ---
 
