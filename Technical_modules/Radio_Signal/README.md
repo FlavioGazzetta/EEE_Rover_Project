@@ -28,11 +28,8 @@ This module processes radio signals emitted by lizards to identify their species
 - Components are integrated onto a Printed Circuit Board (PCB) for a lightweight design.
 - Successfully tested and validated to read radio signals emitted by the lizard.
 
----
-
-## 🖥️ **Software Integration**
-- Converts the processed analog signal into digital output for further analysis.
-- Ensures stable and accurate frequency identification.
+- Oscilloscope output waveform
+<img src="Images/Radio_Output_waveform_from_Oscilloscope.png" width="400"/>
 
 ---
 
@@ -41,7 +38,22 @@ This module processes radio signals emitted by lizards to identify their species
 
 ---
 
-## 🖼️ **LTSpice Circuit**
-Below is the LTSpice circuit for the Radio Signal Processing module:
+## 🖼️ **Circuits**
+Below are the images of the circuits for the Radio Signal Processing module:
 
-![Radio Signal LTSpice Circuit](../../Images/radio_signal_circuit.png)
+- Band pass filter circuit
+<img src="../../Images/radio_signal_circuit.png" alt="Radio Signal LTSpice Circuit" width="400"/>
+
+- LTspice Comparator circuit
+<img src="Images/Radio_Comparator_circuit.png" alt="Radio Signal LTSpice Circuit" width="400"/>
+
+- LTspice envelope detector circuit
+<img src="Images/Radio_envelope_detector_circuit.png" alt="Radio Signal LTSpice Circuit" width="400"/>
+
+- LTspice Full circuit circuit
+<img src="Images/Radio_Full_circuit.png" alt="Radio Signal LTSpice Circuit" width="400"/>
+
+- PCB Full circuit
+<img src="Images/Radio_PCB_Circuit.png" alt="Radio Signal LTSpice Circuit" width="400"/>
+
+
