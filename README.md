@@ -2,7 +2,7 @@
 
 **Group 29 - Electronics Design Project**
 
-<img src="./Images/rover.jpeg" alt="Rover Image" width="400"/>
+<img src="./Images/rover_front.jpeg" alt="Rover Image" width="400"/>
 
 ---
 
