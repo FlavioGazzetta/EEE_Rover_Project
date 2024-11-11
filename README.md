@@ -2,7 +2,7 @@
 
 **Group 29 - Electronics Design Project**
 
-![Rover Image](.\Images\rover.jpeg)
+![Rover Image](Images/rover.jpeg)
 
 ---
 
