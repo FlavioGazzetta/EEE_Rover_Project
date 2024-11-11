@@ -28,8 +28,10 @@ This module processes radio signals emitted by lizards to identify their species
 - Components are integrated onto a Printed Circuit Board (PCB) for a lightweight design.
 - Successfully tested and validated to read radio signals emitted by the lizard.
 
-- Oscilloscope output waveform
-<img src="Images/Radio_Output_waveform_from_Oscilloscope.png" width="400"/>
+---
+
+### **Oscilloscope Output**
+<img src="../../Images/Radio_Output_waveform_from_Oscilloscope.png" alt="Oscilloscope Output Waveform" width="400"/>
 
 ---
 
@@ -41,19 +43,17 @@ This module processes radio signals emitted by lizards to identify their species
 ## 🖼️ **Circuits**
 Below are the images of the circuits for the Radio Signal Processing module:
 
-- Band pass filter circuit
-<img src="../../Images/radio_signal_circuit.png" alt="Radio Signal LTSpice Circuit" width="400"/>
+1. **Band-Pass Filter Circuit**  
+   <img src="../../Images/radio_signal_circuit.png" alt="Radio Signal LTSpice Circuit" width="400"/>
 
-- LTspice Comparator circuit
-<img src="Images/Radio_Comparator_circuit.png" alt="Radio Signal LTSpice Circuit" width="400"/>
+2. **Comparator Circuit**  
+   <img src="../../Images/Radio_Comparator_circuit.png" alt="Radio Signal Comparator Circuit" width="400"/>
 
-- LTspice envelope detector circuit
-<img src="Images/Radio_envelope_detector_circuit.png" alt="Radio Signal LTSpice Circuit" width="400"/>
+3. **Envelope Detector Circuit**  
+   <img src="../../Images/Radio_envelope_detector_circuit.png" alt="Radio Signal Envelope Detector Circuit" width="400"/>
 
-- LTspice Full circuit circuit
-<img src="Images/Radio_Full_circuit.png" alt="Radio Signal LTSpice Circuit" width="400"/>
+4. **Full Circuit**  
+   <img src="../../Images/Radio_Full_circuit.png" alt="Radio Signal Full Circuit" width="400"/>
 
-- PCB Full circuit
-<img src="Images/Radio_PCB_Circuit.png" alt="Radio Signal LTSpice Circuit" width="400"/>
-
-
+5. **PCB Full Circuit**  
+   <img src="../../Images/Radio_PCB_Circuit.png" alt="Radio Signal PCB Circuit" width="400"/>
