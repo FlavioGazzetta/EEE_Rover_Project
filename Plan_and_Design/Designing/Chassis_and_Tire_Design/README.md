@@ -7,14 +7,14 @@ The chassis and tires of the rover were designed using computer-aided design (CA
 ## 📐 **CAD Design**
 The CAD design of the chassis was carefully crafted to fit all necessary components while maintaining durability and functionality.
 
-<img src="../../Images/CAD_design_chasis.png" alt="CAD Design for Chassis" width="300"/>
+<img src="../../../Images/CAD_design_chasis.png" alt="CAD Design for Chassis" width="300"/>
 
 ---
 
 ## 🖨️ **3D Printing**
 The chassis was 3D printed using polylactic acid materials (PLA), ensuring a lightweight yet sturdy construction.
 
-<img src="../../Images/3D_printed_chasis.png" alt="3D Printed Chassis" width="300"/>
+<img src="../../../Images/3D_printed_chasis.png" alt="3D Printed Chassis" width="300"/>
 
 ---
 
