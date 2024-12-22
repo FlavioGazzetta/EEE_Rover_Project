@@ -50,7 +50,7 @@ The **EEE Rover Project** is a collaborative engineering initiative designed to 
    - Commands for forward/backward movement or turning are processed and executed via Wi-Fi.
 
 3. **Real-Time Data Visualization**:
-   - Signal data, including lizard species, is displayed dynamically on the web interface.
+   - Signal data is displayed dynamically on the web interface.
 
 ---
 
